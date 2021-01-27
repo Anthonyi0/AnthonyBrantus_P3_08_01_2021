@@ -1,0 +1,28 @@
+footer{
+	max-width: 100%;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	padding: 1.3rem;
+	display: flex;
+	flex-direction: column;
+}
+.titre_footer{
+	font-family: Shrikhand,Sans serif;
+	font-weight: normal;
+	margin: 0;
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+.lien_footer{
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.fa-utensils,.fa-hands-helping{
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+.fa-hands-helping{
+	font-size: 0.6em;
+}
