@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+@import "keyframes.css";
+@import "footer.css";
+body{
+	font-size: 1em;
+	padding: 0px;
+	margin: 0px;
+	font-family: Roboto,Sans serif;
+}
+h1,h2,h3{
+	margin-top: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.titre_header{
+	font-family: Shrikhand,Sans serif;
+	text-align: center;
+	margin-top: 20px;
+}
+.fa-arrow-left{
+	margin-left: 20px;
+	font-size: 0.6em;
+	position: absolute;
+	top: 35px;
+	left: 10px;
+}
+.img_header{
+	max-width: 100%;
+	width: 100%;
+	max-height: 32rem;
+	object-fit: cover;
+}
+.repas{
+	height: auto;
+	margin-top: -4rem;
+	position: relative;
+	background-color: #f6f6f6;
+	border-radius: 3rem 3rem 0 0;
+	padding-bottom: 30px;
+}
+.flex_repas{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.entree{
+	padding: 2rem 1rem 0 1rem;
+}
+.Nom_restaurant{
+	font-family: Shrikhand,Sans serif;
+	font-size: 1.7em;
+	padding: 2rem 0 0 1rem;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.fa-heart{
+	margin: 5px 0 0 4rem;
+	transition-duration: 1s;
+}
+.fa-heart:hover,.fa-heart:active{
+	color: rgba(147,86,220,.8);
+	font-weight: 900;
+}
+.border{
+	max-width: 50px;
+	display: block;
+	border-bottom: 3px solid #99E2D0;
+}
+.lien_plats{
+	display: flex;
+	width: 380px;
+	padding: 1rem;
+	border-radius: 1.2rem;
+	background-color: white;
+	margin-bottom: 20px;
+	box-shadow: 0 8px 12px -14px black;
+	overflow: hidden;
+	cursor: pointer;
+}
+.info_repas{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	flex: 1;
+}
+.nom_plat{
+	margin-bottom: 5px;
+	font-size: 1.1em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.info_plat{
+	margin: 0;
+	font-size: 0.9em;
+	display: flex;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.prix{
+	font-weight: bold;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-left: .5rem;
+}
+.cadre_circle{
+	background-color: #99e2d0;
+	margin: -1rem -5rem -1rem 1rem;
+	width: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition-duration: .5s;
+}
+.animation_circle{
+	height: 1.6rem;
+	width: 1.6rem;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	transform: rotate(180deg);
+	transition-duration: .5s;
+}
+.fa-check-circle{
+	color: #99e2d0;
+	font-size: 2em;
+}
+.lien_plats:hover .cadre_circle{
+	margin-right: -1rem;
+}
+.lien_plats:hover .animation_circle{
+	transform: rotate(0);
+}
+.lien_plats:active .cadre_circle{
+	margin-right: -1rem;
+}
+.lien_plats:active .animation_circle{
+	transform: rotate(0);
+}
+.plats,.desserts{
+	padding: 1rem 1rem 0 1rem;
+}
+.btn{
+	height: 50px;
+	width: 220px;
+	border-radius: 50px 50px;
+	font-size: 1.1em;
+	color: white;
+	background-image: linear-gradient(rgba(255,121,218,.9),rgba(147,86,220,.9));
+	box-shadow: 0 6px 8px -7px black;
+	border: none;
+	display: block;
+	margin: 50px auto 30px auto;
+}
+.btn:hover,.btn:active{
+	background-image: linear-gradient(rgba(255,121,218,.8),rgba(147,86,220,.8));
+	box-shadow: 0 8px 12px -7px black;
+	transition: 0.3s;
+}
+@media screen and (min-width: 1172px){
+	.Nom_restaurant{
+		text-align: center;
+		font-size: 3em;
+	}
+}
