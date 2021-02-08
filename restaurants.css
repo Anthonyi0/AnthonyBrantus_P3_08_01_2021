@@ -34,7 +34,6 @@ a{
 }
 .repas{
 	height: auto;
-	margin-top: -4rem;
 	position: relative;
 	background-color: #f6f6f6;
 	border-radius: 3rem 3rem 0 0;
@@ -94,8 +93,7 @@ a{
 }
 .info_plat{
 	margin: 0;
-	font-size: 0.9em;
-	display: flex;
+	font-size: 0.9em;	
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -163,9 +161,31 @@ a{
 	box-shadow: 0 8px 12px -7px black;
 	transition: 0.3s;
 }
-@media screen and (min-width: 1172px){
+.btn:focus{
+	outline: 0;
+}
+@media screen and (min-width: 500px){
+	.titre_reservez{
+		margin-bottom: -30px;
+	}
+    .repas{
+    	margin: -4rem auto 0 auto;
+	}
+	.lien_plats{
+		width: 325px;
+	}
 	.Nom_restaurant{
 		text-align: center;
+	}
+}
+@media screen and (min-width: 1172px){
+	.repas{
+		width: 80%;
+	}
+	.Nom_restaurant{
 		font-size: 3em;
+	}
+	footer{
+		padding: 1.3rem 10rem;
 	}
 }
