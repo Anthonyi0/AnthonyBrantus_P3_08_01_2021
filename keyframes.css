@@ -51,21 +51,3 @@
     	margin-left: 0%;
   	}
 }
-header{
-	animation: 2s linear show_menu
-}
-.entree,section{
-	animation: 3s linear show_menu
-}
-.plats{
-	animation: 4s linear show_menu;
-}
-.desserts{
-	animation: 5s linear show_menu;
-}
-.btn{
-	animation: 6.1s hiden;
-}
-footer{
-	animation: 6s linear show_menu;
-}

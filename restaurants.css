@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
 @import "keyframes.css";
 @import "footer.css";
+header{
+	animation: 1s linear show_menu
+}
+.entree,section{
+	animation: 2s linear show_menu
+}
+.plats{
+	animation: 3s linear show_menu;
+}
+.desserts{
+	animation: 4s linear show_menu;
+}
+.btn{
+	animation: 5.1s hiden;
+}
+footer{
+	animation: 5s linear show_menu;
+}
 body{
 	font-size: 1em;
 	padding: 0px;
